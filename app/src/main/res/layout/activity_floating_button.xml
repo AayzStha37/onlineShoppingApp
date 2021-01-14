@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/big_button"
+        android:backgroundTint="#1e7ac0"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:elevation="6dp"
+        android:src="@drawable/pluss"
+        app:pressedTranslationZ="12dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/order_button"
+        android:backgroundTint="#1e7ac0"
+        android:layout_width="125px"
+        android:layout_height="125px"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="20dp"
+        android:elevation="6dp"
+        android:src="@drawable/order12"
+        app:pressedTranslationZ="12dp"
+
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/cart_button"
+        android:backgroundTint="#1e7ac0"
+        android:layout_width="125px"
+        android:layout_height="125px"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="133dp"
+        android:layout_marginRight="20dp"
+        android:elevation="6dp"
+        android:src="@drawable/cart1"
+        app:pressedTranslationZ="12dp"
+
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>

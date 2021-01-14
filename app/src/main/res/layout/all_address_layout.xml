@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/bt_custom_add"
+            android:layout_width="800px"
+            android:layout_height="175px"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/custom_add"
+            android:gravity="center|top"
+            app:elevation="10dp" />
+
+        <Button
+            android:id="@+id/bt_auto"
+            android:layout_width="800px"
+            android:layout_height="175px"
+            android:layout_below="@+id/bt_custom_add"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/auto"
+            app:elevation="10dp" />
+
+        <TextView
+            android:id="@+id/tv_ll"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_auto"
+            android:layout_marginLeft="45dp"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp">
+    </ListView>
+
+</LinearLayout>

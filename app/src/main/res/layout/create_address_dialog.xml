@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp">
+
+        <EditText
+
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:id="@+id/entryid"
+            android:inputType="number"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Customer Name"
+            android:id="@+id/diag_name"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact no."
+            android:id="@+id/diag_contact"
+            android:inputType="number"/>
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Street Address"
+            android:id="@+id/diag_strt"
+            android:inputType="text"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:id="@+id/diag_city"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/diag_district"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="District"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Zone"
+            android:id="@+id/diag_zone"
+            android:inputType="text"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/addentry"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD" />
+
+        <Button
+            android:id="@+id/cancelentry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/addentry"
+            android:text="CANCEL" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c1c0bd">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:text=" ID : "
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/idd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer ID"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:text="NAME : "
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:text="PHONE NO. : "
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/phone_no"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Number"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:text="STREET: "
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/street"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Street"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:text="CITY: "
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/city_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="City Name"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:text="DISTRICT: "
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/district_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Dist. Name"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:text="ZONE : "
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/zone_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Zone Name"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

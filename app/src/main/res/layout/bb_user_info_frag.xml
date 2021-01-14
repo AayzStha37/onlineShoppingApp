@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bg"
+    android:background="@drawable/background"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+
+    <ImageView
+        android:id="@+id/user_img"
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/user_img"
+        android:scaleType="fitXY" />
+    <TextView
+        android:id="@+id/txt_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Aayush Shrestha"
+        android:textColor="#ffffff"
+        android:textSize="65px"
+        android:layout_below="@+id/user_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/txt_phn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="9896639970"
+        android:textColor="#ffffff"
+        android:textSize="35px"
+        android:layout_below="@+id/txt_user_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="saayush97@gmail.com"
+        android:textColor="#ffffff"
+        android:textSize="35px"
+        android:layout_below="@+id/txt_phn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:id="@+id/txt_email" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="990px"
+        android:layout_height="180px"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/history"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/txt_email"
+        android:layout_centerHorizontal="true"
+        android:elevation="20dp"/>
+
+    <Button
+        android:id="@+id/address"
+        android:layout_width="1010px"
+        android:layout_height="180px"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/location"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/order"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="1010px"
+        android:layout_height="180px"
+        android:layout_alignLeft="@+id/address"
+        android:layout_alignStart="@+id/address"
+        android:layout_below="@+id/address"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/contact"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="340px"
+        android:layout_height="140px"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/logout"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/contact"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
