@@ -1,5 +1,5 @@
 # E-commerce App
-An online shopping app with remote and local data base sysytem for storing user profile and data. Also the app suports functionalities of browsing categories and shop products by adding into cart and even ordering the cart content by provion of delivery address provided manually or detected automatically.
+An online shopping app with remote and local data base sysytem for storing user profile and data. Also the app supports functionalities to browse through categories and shop products by adding items into cart and even ordering the cart content by providing delivery address (added manually or detected automatically).
 
 Languages Used:
 1. Java(Coding Language)
